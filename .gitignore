@@ -1,0 +1,27 @@
+# Java / Spring Boot
+/target/
+*.log
+
+# Maven
+.mvn/
+!**/src/main/**/application.properties
+
+# Angular
+/taskManagerUI/node_modules/
+/taskManagerUI/dist/
+/taskManagerUI/.angular/
+/taskManagerUI/out-tsc/
+
+# Environment files (optional)
+/taskManagerUI/src/environments/environment*.ts
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
