@@ -1,0 +1,99 @@
+#task-manager {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: lightcyan;
+  height: 100vh;
+}
+
+
+.input-style{
+  background-color: white;
+}
+
+
+.task-manager-form{
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-input {
+  width: 500px;
+  padding-right: 15px;
+}
+
+.tm-div {
+  padding-top: 6px;
+}
+
+.tm-button{
+  width:150%;
+}
+
+.mat-mdc-text-field-wrapper.mdc-text-field.mdc-text-field--outlined.mdc-text-field--no-label {
+  background-color: white !important;
+}
+
+.task-list {
+  display: block;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 1rem;
+  background-color: lightblue;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.task-list h3 {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: midnightblue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  background-color: lightsteelblue; /* pastel lavender */
+  border: 1px solid #e8e8f0;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+  background-color: aliceblue; /* slightly darker pastel */
+}
+
+.task-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+button[mat-flat-button] {
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+h1 {
+  color: midnightblue;
+  font-weight: bold;
+}
